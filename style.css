@@ -1,0 +1,67 @@
+html, body{
+  height:100%;
+  font-family:Arial;
+  margin:0 auto;
+}
+a{
+  text-decoration:none;
+  color:green;
+}
+.container{
+  display:flex;
+  font-family:Comic Sans
+}
+.column{
+  flex-direction:column;
+}
+nav a{
+  flex:1;
+  text-align:center;
+  padding:10px;
+}
+
+.food{
+	display:flex;
+	transition:3s;
+	color:green;
+}
+	
+nav a:hover{
+  background-color:green;
+  color:white;
+  transition:2s;
+}
+#banner{
+  align-items: center;  
+  background-color:green;
+  color:white;
+  padding:20px;
+}
+#body{
+  padding:50px;
+}
+#links{
+  padding:50px;
+}
+#links *{
+  border: 1px solid black;
+  margin:5px;
+}
+
+#footer{
+  background-color:green;
+  color:white;
+  padding:20px;
+  justify-content: center;
+  align-items:center;
+}
+#main div{
+	flex:1;
+	margin:5px;
+	border: solid blue 1px;
+}
+#main div *{	
+	text-align:center;
+	padding:10px;
+	margin:5px;
+}
